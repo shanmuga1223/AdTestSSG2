@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "938774672904",
+    "firebase_url": "https://ssg-dress-up-android-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ssg-dress-up-android",
+    "storage_bucket": "ssg-dress-up-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938774672904:android:fc374e9c2c3f930131c3bd",
+        "android_client_info": {
+          "package_name": "com.pixcellplay.ssg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938774672904-fshkeatgfnlogta5sjq8719ua3n1ls1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsArMur3ET9n0TUty1dNhnuW8lmPokdNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938774672904-fshkeatgfnlogta5sjq8719ua3n1ls1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
