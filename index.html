@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Push It Bunny!</title>
+    <title>SSg2</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
 
@@ -25,16 +25,17 @@
     </div>
 
     <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/AdTestSSG2.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/AdTestSSG2.data",
-        frameworkUrl: buildUrl + "/AdTestSSG2.framework.js",
-        codeUrl: buildUrl + "/AdTestSSG2.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "Pixcell Play",
-        productName: "Super Stylist Game",
-        productVersion: "0.1",
+        var buildUrl = "Build";
+        var loaderUrl = buildUrl + "/Build.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/Build.data.unityweb",
+            frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+            codeUrl: buildUrl + "/Build.wasm.unityweb",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "Pixcell Play",
+            productName: "Super Stylist Game",
+            productVersion: "0.1",
+            showBanner: unityShowBanner,
       };
 
       var container = document.querySelector("#unity-container");
